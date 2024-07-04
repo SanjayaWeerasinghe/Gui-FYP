@@ -1,0 +1,146 @@
+.text-box {
+  margin-right: 600px;
+  font-size: 18px; /* Add this line to increase the font size */
+}
+
+.text-box label {
+  display: block;
+  font-weight: bold; /* Make the text bold */
+  font-size: 50px; /* Set the font size to 50px */
+  width: 1000px; /* Set the width to 100px */
+  height: 0px; /* Set the height to 100px */
+  margin-left: 20px;
+}
+
+
+
+.slider-container {
+  
+  text-align: center;
+  padding: 20px;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  max-width: 300px;
+  margin-left:1350px;
+}
+
+
+
+h2 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.indicators {
+  display: flex;
+  justify-content: center;
+  align-items: center; /* Center the images vertically */
+  margin-bottom: 20px;
+}
+
+.indicator {
+  margin: 0 5px;
+  opacity: 0.7;
+  transition: opacity 0.3s ease-in-out;
+  width: 40px; /* Set a fixed width for the indicator divs */
+  height: 40px; /* Set a fixed height for the indicator divs */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.indicator img {
+  width: 100%; /* Make the images fill the indicator div */
+  height: auto; /* Maintain aspect ratio */
+}
+
+input[type='range'] {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.slider-value {
+  font-size: 24px;
+  font-weight: bold;
+  margin-top: 10px;
+  color: #cbd632;
+}
+
+/* ... (existing styles) */
+
+.percentage-between-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.total-percentage {
+  font-size: 18px;
+  margin-top: 10px;
+  color: #3fd431;
+}
+
+input[type='range'] {
+  width: 100%;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* ... (existing styles) */
+
+.total-percentage {
+  font-size: 18px;
+  margin-top: 10px;
+  color: black; /* Change the color to black */
+}
+
+
+/* Button Styles */
+.transaction-button {
+  background-color: #007bff; /* Button background color */
+  color: #fff; /* Button text color */
+  padding: 10px 20px; /* Adjust padding as needed */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.transaction-button:hover {
+  background-color: #0056b3; /* Hover color */
+}
+
+input[type='range']::-webkit-slider-thumb {
+  background-color: red; /* Change to your desired color */
+  border: 2px solid #ffffff; /* Add a border for better visibility */
+  width: 20px; /* Adjust the size of the thumb */
+  height: 20px; /* Adjust the size of the thumb */
+  cursor: pointer;
+}
+
+
+.graph {
+  width: 800px; /* Adjust the width as needed */
+  height: 550px; /* Adjust the height as needed */
+  border: 2px solid #3498db; /* Add a 2px solid border with a blue color */
+  border-radius: 10px; /* Add rounded corners */
+  background-color: #5ddbab; /* Set a background color */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Add a subtle shadow */
+  margin: 20px; /* Add margin for spacing */
+  padding: 20px; /* Add padding for content spacing */
+  text-align: center; /* Center the content horizontally */
+  font-size: 18px; /* Adjust the font size */
+  color: #333; /* Set the text color */
+}
+
+
+.imgcontainer{
+  display: flex;
+  flex-direction: row;
+  width: 1500px; /* Adjust the size of the thumb */
+  height: 600px; /* Adjust the size of the thumb */
+}
